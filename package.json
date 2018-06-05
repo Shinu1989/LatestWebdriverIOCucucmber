@@ -1,0 +1,38 @@
+{
+  "name": "webdriveriocucmbr",
+  "version": "1.0.0",
+  "description": "WebDriver bindings for Node.js with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/webdriverio/bin/wdio"
+  },
+  "author": "Bansal",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.1.2",
+    "selenium-standalone": "^6.15.0",
+    "wdio-cucumber-framework": "^2.1.0",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.12.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "selenium": "^2.20.0"
+  }
+}
